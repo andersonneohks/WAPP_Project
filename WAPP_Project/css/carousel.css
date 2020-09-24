@@ -1,0 +1,52 @@
+﻿body {
+    padding-top: 56px;
+    margin-bottom: 96px
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 500px;
+    background: no-repeat center top scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.carousel-1 {
+    background-image: url('../asset/image/2m-hero-banner-sm-1.png');
+}
+
+.carousel-2 {
+    background-image: url('../asset/image/2m-hero-banner-sm-2.jpg');
+}
+
+.carousel-3 {
+    background-image: url('../asset/image/2m-hero-banner-sm-3.png');
+}
+
+@media (min-width: 768px) {
+    .carousel-item {
+        background-position-y: 35%;
+
+    }
+
+    .carousel-1 {
+        background-image: url('../asset/image/jk-hero-banner-md-1.png');
+    }
+
+    .carousel-2 {
+        background-image: url('../asset/image/jk-hero-banner-md-2.jpg');
+    }
+
+    .carousel-3 {
+        background-image: url('../asset/image/jk-hero-banner-md-3.jpg');
+        background-position-x: 75%;
+    }
+
+
+}
